@@ -16,7 +16,7 @@ to press it with the middle or ring finger.
 ### Text Navigation
 Ctrl and Shift work as normal here
 |Key Combination|Functionality|
-|***|***|
+|---|---|
 |Alt+i|Up Arrow|
 |Alt+k|Down Arrow|
 |Alt+j|Left Arrow|
@@ -25,11 +25,12 @@ Ctrl and Shift work as normal here
 ### Text Editing
 Ctrl works as normal here, but Shift doesn't
 |Key Combination|Functionality|
-|***|***|
+|---|---|
 |Alt+h|Backspace|
 |Alt+m|Delete|
 
 ### Tab Navigation
 |Key Combination|Functionality|
+|---|---|
 |Alt+,|Ctrl+Tab|
 |Alt+.|Ctrl+Shift+Tab|

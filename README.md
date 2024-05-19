@@ -12,6 +12,9 @@ wrote for more than an hour or two. Since the other fingers are generally strong
 good fit. For some keyboard layouts, it's easily accessible with the thumb, but it may be more comfortable
 to press it with the middle or ring finger.
 
+## Installation
+Install AHk v2 from [here](https://www.autohotkey.com/v2/)
+
 ## Functionality
 ### Text Navigation
 Ctrl and Shift work as normal here

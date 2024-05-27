@@ -26,11 +26,13 @@ Ctrl and Shift work as normal here
 |Alt+l|Right Arrow|
 
 ### Text Editing
-Ctrl works as normal here, but Shift doesn't
+Shift replaces Ctrl
 |Key Combination|Functionality|
 |---|---|
 |Alt+h|Backspace|
+|Shift+Alt+h|Ctrl+Backspace|
 |Alt+m|Delete|
+|Shift+Alt+m|Ctrl+Delete|
 
 ### Tab Navigation
 |Key Combination|Functionality|

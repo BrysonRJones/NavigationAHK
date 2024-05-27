@@ -25,26 +25,29 @@
 
 /*
 	Text Editing
+
+	(TL;DR below)
+	SendPlay doesn't work on every system - you have to be able to 
+	add "Run with UI Access" to the context menu, which isn't always
+	an option. If we use SendInput, using ^<!m to send ^Del actually
+	opens Windows Security. We could use Ctrl+Alt+h for 
+	Ctrl+Backspace, but using Shift+Alt+h allows it to more closely 
+	parallel Shift+Alt+m
+
+	TL;DR: We replace Ctrl with Shift for edit functionality
 */
 <!h::BackSpace
-/*
-	For Del, we need to be a little more explicit. If we were to use
-	<!m::Del, then Ctrl+Alt+m would open Task Manager. To match 
-	BackSpace's (sic) functionality, we have to use SendPlay
-*/
-<!m::
-{
-	Send "{Del}"
-}
-^<!m::
-{
-	SendPlay "^{Del}"
-}
++<!h::^BackSpace
+<!m::Del
++<!m::^Del
 /*
 	Tab Navigation
 
-	This lets you use comma and period to change tabs in apps like Google Chrome
-	and VS Code
+	This lets you use comma and period to change tabs in apps like 
+	Google Chrome and VS Code
+
+	In VS code, holding Ctrl allows you to keep the  tab-select 
+	window open
 */
 <!,::^+Tab
 <!.::^Tab
